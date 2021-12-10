@@ -1,0 +1,39 @@
+The rules for giving and receiving blood are as follows:
+ 
+1. A person with antigen A may only give blood to another person with antigen A.
+2. A person with antigen B may only give blood to another person with antigen B.
+3. A person with the Rh factor may only give blood to another person with the Rh factor.
+4. A person with none of the above factors (O-) can give blood to anyone.
+
+ABO system
+A, AB have antigen A
+B, AB have antigen B
+O, has no antigen
+
+Rh system
+Rh+, Rh antigens are present in their blood
+Rh-, Rh antigens are not present in their blood
+
+Donor Chart:
+Blood Type          |Can give to        |Can receive from           |
+---------------------------------------------------------------------
+A+                  |A+, AB+            |A+, A-, O+, O-             |
+---------------------------------------------------------------------
+B+                  |B+, AB+            |B+, B-, O+, O-             |
+---------------------------------------------------------------------
+AB+                 |AB+                |Everyone                   |
+---------------------------------------------------------------------
+O+                  |A+,B+, AB+, O+     |O+, O-                     |
+---------------------------------------------------------------------
+A-                  |A+, A-, AB+, AB-   |A-, O-                     |
+---------------------------------------------------------------------
+B-                  |B+, B-, AB+, AB-   |B-, O-                     |
+---------------------------------------------------------------------
+AB-                 |AB+, AB-           |AB-, A-, B-, O-            |
+---------------------------------------------------------------------
+O-                  |Everyone           |O-                         |
+---------------------------------------------------------------------
+
+
+Write a function that takes in a donor's and receiver's blood types as strings and returns whether 
+or not the donor can safely give blood to the receiver, according to the rules above.
